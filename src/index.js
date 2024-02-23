@@ -9,7 +9,14 @@ if (process.env.NODE_ENV !== 'production') {
 function component() {
 
   const header = document.createElement('header');
+  header.classList.add('header');
+
+  const title = document.createElement('h1');
+  title.textContent = "アスガルド";
+  title.classList.add('title');
+
   const nav = document.createElement('nav');
+  nav.classList.add('nav');
 
   const buttonsNames = ["Home", "Menu", "About"];
 
@@ -20,18 +27,29 @@ function component() {
     nav.appendChild(button);
   }
 
+  header.appendChild(title);
   header.appendChild(nav);
 
   const content = document.createElement('div');
   content.id = 'content';
 
+  const footer = document.createElement('div');
+  footer.classList.add('footer');
+
+  const copy = document.createElement('p');
+  copy.innerHTML = 'Copyright &copy; 2024 Raphael Vilete';
+
+  footer.appendChild(copy);
+
   return {
     header,
-    content
+    content,
+    footer
   };
 }
 
-document.body.appendChild(component().header);
-document.body.appendChild(component().content);
+const components = component();
 
-console.log("Everything's fine!");
+document.body.appendChild(components.header);
+document.body.appendChild(components.content);
+document.body.appendChild(components.footer);

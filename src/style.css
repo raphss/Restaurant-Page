@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('files/SawarabiMincho-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: black;
+    background-image: url(files/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center 37vh;
+    background-attachment: fixed;
+    background-size: 35vh;
+    text-align: center;
+}
+
+.title {
+    font-family: 'MyFont';
+    color: whitesmoke;
+    font-size: 8vh;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav button {
+    padding: 1.3vh;
+    border: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 2.5vh;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        border: 1px solid black;
+        content: " ";
+        display: block;
+        margin: 1vh auto;
+        position: relative;
+        transition: all 340ms ease-in-out;
+        width: 0;
+    }
+
+    &:hover:after {
+        backface-visibility: hidden;
+        border-color: whitesmoke;
+        transition: width 280ms ease-in-out;
+        width: 90%;
+    }
+}
+
+.footer {
+    color: whitesmoke;
+    font-size: 2vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
