@@ -1,4 +1,6 @@
 import './style.css';
+import menuTab from './menu';
+import aboutTab from './about';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
