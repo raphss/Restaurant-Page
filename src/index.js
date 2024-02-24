@@ -1,6 +1,5 @@
 import './style.css';
-import menuTab from './menu';
-import aboutTab from './about';
+import menu from './menu.js';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
@@ -22,18 +21,27 @@ function component() {
 
   const buttonsNames = ["Home", "Menu", "About"];
 
+  const content = document.createElement('div');
+  content.id = 'content';
+
   for (let i = 0; i < buttonsNames.length; i++) {
     const button = document.createElement('button');
     button.textContent = buttonsNames[i];
     button.classList.add('nav-buttons');
+
+    if (i === 0) {
+
+    } else if (i === 1) {
+      button.addEventListener('click', () => {
+        menu();
+      });
+    }
+
     nav.appendChild(button);
   }
 
   header.appendChild(title);
   header.appendChild(nav);
-
-  const content = document.createElement('div');
-  content.id = 'content';
 
   const footer = document.createElement('div');
   footer.classList.add('footer');
