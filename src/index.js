@@ -1,4 +1,5 @@
 import './style.css';
+import home from './home.js';
 import menu from './menu.js';
 
 if (process.env.NODE_ENV !== 'production') {
@@ -30,6 +31,9 @@ function component() {
     button.classList.add('nav-buttons');
 
     if (i === 0) {
+      button.addEventListener('click', () => {
+        home();
+      });
 
     } else if (i === 1) {
       button.addEventListener('click', () => {
