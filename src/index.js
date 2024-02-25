@@ -1,6 +1,7 @@
 import './style.css';
 import home from './home.js';
 import menu from './menu.js';
+import about from './about.js';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
@@ -38,6 +39,10 @@ function component() {
     } else if (i === 1) {
       button.addEventListener('click', () => {
         menu();
+      });
+    } else if (i === 2) {
+      button.addEventListener('click', () => {
+        about();
       });
     }
 
