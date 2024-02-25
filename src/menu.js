@@ -11,20 +11,24 @@ function createItem(option) {
 
     const names = [];
     const descriptions = [];
+    const images = [];
 
-    for (let i = 0; i <= option.length; i++) {
+    for (let i = 0; i < option.length; i++) {
 
         const name = option[0][i];
         const description = option[1][i];
+        const image = new Image();
+        image.src = option[2][i];
 
         names.push(name);
         descriptions.push(description);
+        images.push(image);
     }
 
-    return createMenuItem(names, descriptions);
+    return createMenuItem(names, descriptions, images);
 }
 
-function createMenuItem(names, descriptions) {
+function createMenuItem(names, descriptions, images) {
 
     const menuItem = document.createElement('div');
     menuItem.classList.add('menu-item');
@@ -40,8 +44,13 @@ function createMenuItem(names, descriptions) {
         const foodDesc = document.createElement('p');
         foodDesc.textContent = descriptions[i];
 
+        const foodImage = document.createElement('img');
+        foodImage.classList.add('food-images');
+        foodImage.src = images[i].src;
+
         eachFood.appendChild(foodName);
         eachFood.appendChild(foodDesc);
+        eachFood.appendChild(foodImage);
 
         eachFood.style.border = '0.4vh solid #e83737b0';
         eachFood.style.borderRadius = '2vh';
