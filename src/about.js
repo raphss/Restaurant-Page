@@ -24,7 +24,7 @@ const mapMarkerIcon = `
 function settingsMap() {
 
     const latitude = 35.694323;
-    const longitude = 139.701580;
+    const longitude = 139.701610;
 
     const mapMarkerIcon2 = `
     <svg height="8vh" width="8vh" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +74,7 @@ function createAbout() {
     const address = document.createElement('p');
     address.innerHTML = `
         <span style="vertical-align: middle">${mapMarkerIcon}</span>
-        1 Chome-19 Kabukichō, Shinjuku City, 
+        1 Chome-19 Kabukichō,
         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Tokyo 160-0021, Japan
     `;
