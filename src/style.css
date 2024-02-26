@@ -165,9 +165,9 @@ body {
 
 @media only screen and (max-width: 480px) {
     .menu {
-        margin: 10vh -1vh 10vh -1vh;
-        padding: 2vh;
+        margin: 5vh -1vh 5vh -1vh;
         max-height: 45vh;
+        padding: 0vh;
     }
 
     .menu-item {
@@ -180,9 +180,9 @@ body {
     }
 
     .about {
-        margin: 10vh -1vh 10vh -1vh;
-        padding: 2vh;
+        margin: 5vh -1vh 5vh -1vh;
         max-height: 45vh;
+        padding: 0vh;
     }
 
     .container {
@@ -198,7 +198,6 @@ body {
     .about::-webkit-scrollbar {
         width: 0.7vh;
     }
-
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
