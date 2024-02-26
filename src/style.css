@@ -85,7 +85,6 @@ body {
     border: 0.2vh solid white;
     border-radius: 1vh;
     max-height: 60vh;
-    z-index: 1;
 }
 
 .menu-item {
@@ -166,8 +165,9 @@ body {
 
 @media only screen and (max-width: 480px) {
     .menu {
-        margin: 12vh -1vh 12vh -1vh;
-        max-height: 40vh;
+        margin: 10vh -1vh 10vh -1vh;
+        padding: 2vh;
+        max-height: 45vh;
     }
 
     .menu-item {
@@ -182,7 +182,7 @@ body {
     .about {
         margin: 10vh -1vh 10vh -1vh;
         padding: 2vh;
-        max-height: 40vh;
+        max-height: 45vh;
     }
 
     .container {
@@ -204,6 +204,7 @@ body {
 @media only screen and (min-width: 481px) and (max-width: 600px) {
     .menu {
         margin: 5vh 0vh 5vh 0vh;
+        padding: 2vh;
     }
 
     .menu-item {
