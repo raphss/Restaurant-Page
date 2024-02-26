@@ -166,7 +166,7 @@ body {
 
 @media only screen and (max-width: 480px) {
     .menu {
-        margin: 5vh -1vh 5vh -1vh;
+        margin: 12vh -1vh 12vh -1vh;
         max-height: 40vh;
     }
 
@@ -180,7 +180,7 @@ body {
     }
 
     .about {
-        margin: 3vh -1vh 2vh -1vh;
+        margin: 10vh -1vh 10vh -1vh;
         padding: 2vh;
         max-height: 40vh;
     }
