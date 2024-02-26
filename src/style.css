@@ -159,7 +159,7 @@ body {
     color: whitesmoke;
     font-size: 1.7vh;
     bottom: 0%;
-    position: fixed;
+    position: absolute;
     align-self: center;
 }
 
@@ -178,7 +178,7 @@ body {
     }
 
     .about {
-        margin: 3vh -1vh 2vh -1vh;
+        margin: 3vh -1vh 12vh -1vh;
         padding: 2vh;
     }
 
