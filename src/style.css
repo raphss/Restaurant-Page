@@ -85,6 +85,7 @@ body {
     border: 0.2vh solid white;
     border-radius: 1vh;
     max-height: 60vh;
+    z-index: 1;
 }
 
 .menu-item {
@@ -110,6 +111,7 @@ body {
     border: 0.2vh solid white;
     border-radius: 1vh;
     max-height: 60vh;
+    z-index: 1;
 }
 
 .info {
@@ -159,8 +161,9 @@ body {
     color: whitesmoke;
     font-size: 1.7vh;
     bottom: 0%;
-    position: absolute;
+    position: fixed;
     align-self: center;
+    z-index: 2;
 }
 
 @media only screen and (max-width: 480px) {
@@ -180,6 +183,7 @@ body {
     .about {
         margin: 3vh -1vh 2vh -1vh;
         padding: 2vh;
+        max-height: 55vh;
     }
 
     .container {
