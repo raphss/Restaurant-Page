@@ -110,8 +110,7 @@ body {
     padding: 2vh 4vh 2vh 4vh;
     border: 0.2vh solid white;
     border-radius: 1vh;
-    max-height: 55vh;
-    z-index: 1;
+    max-height: 60vh;
 }
 
 .info {
@@ -163,7 +162,6 @@ body {
     bottom: 0%;
     position: fixed;
     align-self: center;
-    z-index: 2;
 }
 
 @media only screen and (max-width: 480px) {
@@ -204,6 +202,7 @@ body {
 @media only screen and (min-width: 481px) and (max-width: 600px) {
     .menu {
         margin: 5vh 0vh 5vh 0vh;
+        max-height: 40vh;
     }
 
     .menu-item {
@@ -218,6 +217,7 @@ body {
     .about {
         margin: 3vh 0vh 2vh 0vh;
         padding: 2vh;
+        max-height: 40vh;
     }
 
     .container {
