@@ -233,6 +233,7 @@ body {
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .menu {
         margin: 5vh 2vh 5vh 2vh;
+        max-height: 40vh;
     }
 
     .menu-item {
@@ -241,6 +242,7 @@ body {
 
     .about {
         margin: 3vh 2vh 2vh 2vh;
+        max-height: 40vh;
     }
 
     .container {
