@@ -3,12 +3,6 @@ import home from './home.js';
 import menu from './menu.js';
 import about from './about.js';
 
-if (process.env.NODE_ENV !== 'production') {
-  console.log('Looks like we are in development mode!');
-} else {
-  console.log('Looks like we are in production mode!');
-}
-
 function component() {
 
   const header = document.createElement('header');

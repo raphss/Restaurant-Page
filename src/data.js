@@ -10,9 +10,9 @@ const appetizers = [
         "Pan-fried pork and vegetable dumplings."
     ],
     [
-        './files/1edamame.png',
-        './files/2agedashi.png',
-        './files/3gyoza.png'
+        './images/1edamame.png',
+        './images/2agedashi.png',
+        './images/3gyoza.png'
     ]
 ];
 
@@ -28,9 +28,9 @@ const sushiRolls = [
         "Shrimp tempura, avocado, and cucumber rolled in seaweed and rice, topped with eel and avocado slices."
     ],
     [
-        './files/4california.jpg',
-        './files/5spicytuna.jpg',
-        './files/6dragonroll.jpg'
+        './images/4california.jpg',
+        './images/5spicytuna.jpg',
+        './images/6dragonroll.jpg'
     ]
 ];
 
@@ -46,9 +46,9 @@ const nigiriSashimi = [
         "Yellowtail fish atop hand-pressed rice."
     ],
     [
-        './files/7salmon.jpg',
-        './files/8tuna.jpg',
-        './files/9yellowtail.jpg'
+        './images/7salmon.jpg',
+        './images/8tuna.jpg',
+        './images/9yellowtail.jpg'
     ]
 ];
 
@@ -64,9 +64,9 @@ const mainCourses = [
         "Udon noodles in a savory broth, served with a side of crispy vegetable tempura."
     ],
     [
-        './files/10teriyaki.png',
-        './files/11beefyaki.jpg',
-        './files/12vegtempura.jpg'
+        './images/10teriyaki.png',
+        './images/11beefyaki.jpg',
+        './images/12vegtempura.jpg'
     ]
 ];
 
@@ -82,9 +82,9 @@ const ramen = [
         "Light and clear salt-based broth with ramen noodles, loaded with a variety of colorful vegetables, tofu, and seaweed."
     ],
     [
-        './files/13shoyu.jpg',
-        './files/14tonkotsu.jpg',
-        './files/15veggieramen.jpg'
+        './images/13shoyu.jpg',
+        './images/14tonkotsu.jpg',
+        './images/15veggieramen.jpg'
     ]
 ];
 
@@ -100,9 +100,9 @@ const desserts = [
         "Two fluffy pancakes filled with sweet red bean paste."
     ],
     [
-        './files/16matcha.jpg',
-        './files/17mochi.jpg',
-        './files/18dorayaki.jpg'
+        './images/16matcha.jpg',
+        './images/17mochi.jpg',
+        './images/18dorayaki.jpg'
     ]
 ];
 
