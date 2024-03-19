@@ -55,7 +55,7 @@ function component() {
   return {
     header,
     content,
-    footer,
+    footer
   };
 }
 
