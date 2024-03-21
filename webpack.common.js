@@ -40,7 +40,7 @@ module.exports = {
       favicon: './src/files/icon.ico',
       title: 'アスガルド',
       filename: 'index.html',
-      inject: 'body',
+      inject: 'head',
       scriptLoading: 'defer',
     }),
     new CopyWebpackPlugin({
