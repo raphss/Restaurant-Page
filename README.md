@@ -24,7 +24,7 @@ Uma página de restaurante de comida japonesa. Apresenta opções do menu, infor
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## Contatos
+## Contato
 
 Para mais informações sobre o projeto ou para entrar em contato, visite nossa [página de contatos](https://raphaelvilete.tech/#contato).
 
