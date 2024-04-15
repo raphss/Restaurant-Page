@@ -26,7 +26,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 
-Para mais informações sobre o projeto ou para entrar em contato, visite nossa [página de contatos](https://raphaelvilete.tech/#contato).
+- Raphael Vilete - [raphvilete@gmail.com](mailto:raphvilete@gmail.com)
 
 <!-- Markdown link & img dfn's -->
 [url]: https://restaurantpage.live/
