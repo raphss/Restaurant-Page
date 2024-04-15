@@ -5,7 +5,7 @@
 [![Live website][url-image]][url]
 
 <p align="center">
-    <img src="./src/images/2-restaurant.png" alt="Restaurant Page" width="600">
+    <img src="restaurant.png" alt="Restaurant Page" width="600">
 </p>
 
 ## Sobre o Projeto
